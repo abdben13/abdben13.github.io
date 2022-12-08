@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('img/chicha3.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+section {
+    height: 100vh;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 10%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    color:orange;
+    font-size: 50px;
+    font-family: Abril fatface, sans-serif;
+    letter-spacing: 0.2em;
+}
+h1 span {
+    opacity: 0;
+    display: inline-block;
+    animation: animate 1s linear forwards;
+}
+@keyframes animate {
+    0%
+    {
+    opacity: 0;
+    transform: rotateY(90deg);
+    filter: blur(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0);
+    }
+}
+video {
+    position: absolute;
+    top: 0%;
+    height: 100vh;
+    opacity: 50%;
+}
+.btn-retour {
+    margin-top: 5%;
+    color: white;
+    border-radius: 5%;
+    border: 2px solid #f1f1f1;
+    outline: none;
+    background: transparent;
+    font-size: 50px;
+    padding: 10px;
+}
+.choixgouts {
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 37%;
+    color:white;
+    position: relative;
+}
+.Menthelogo {
+    display:inline;
+}
+#Menthe {
+    display:inline;
+    color: green
+}
+#Pomme {
+    color: greenyellow;
+}
+#Pasteque {
+    color: red;
+}
+#Fraise {
+    color: red;
+}
+#Framboise {
+    color: pink;
+}
+#Mangue {
+    color: orange;
+}
+#Melon {
+    color: yellowgreen;
+}
+#Banane {
+    color: yellow;
+}
+li {
+    margin-left: 10%;
+}
+img {
+    height: 5%;
+}
